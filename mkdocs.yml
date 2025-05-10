@@ -1,5 +1,5 @@
-site_name: My Github Docs
-site_url: https://miko-cn.github.io
+site_name: Miko Tech Tips
+site_url: https://miko.us.kg
 nav:
   - Home: index.md
   - Test: 
@@ -29,4 +29,4 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到暗色模式
-copyright: Copyright &copy; 2024 - 2025 miko-cn
+copyright: Copyright &copy; 2024 - 2025 MikoTechTips
