@@ -1,23 +1,29 @@
-# Welcome to MkDocs
+---
+hide:
+  - footer
+---
 
-![Yae-Miko](https://picgo-1256575825.cos.ap-guangzhou.myqcloud.com/3f4ada7564bd697e3a22596edf8977cdd2f100a8_s2_n1.jpg)
+# Miko Tech Tips
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+一个兴趣使然的独立开发者博客，记录些随笔，发布些文章。
 
-## Commands
+## 你将会看到
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- 编程语言：C/C++、C#、Python、Javascript
+- 软件开发：React-Native、Expo
+- 游戏开发：UnrealEngine、Unity、Godot
+- 绘画学习：二次元插画
+- 动画学习：手绘动画、三维动画（Blender）
+- 音乐学习：编曲、弹奏、乐器、宿主软件、设备
+- 阅读笔记：日常杂类书籍的读书笔记
+- ...
 
-## Project layout
+## 站点索引
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- 知乎：<a href="https://www.zhihu.com/people/bubblesnewway">Miko</a>
+- Github：<a href="https://github.com/miko-cn">miko-cn</a>
 
-测试中文，检索功能，阿里巴巴，支付宝，微信，腾讯，米哈游。
+## 联系方式
 
-测试修改，自定义域名。
+- 邮箱：<a href="mailto:mikott@foxmail.com">mikott@foxmail.com</a>
+- 微信：mi-tencent
