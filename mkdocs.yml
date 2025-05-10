@@ -1,5 +1,32 @@
 site_name: My Github Docs
 site_url: https://miko-cn.github.io
+nav:
+  - Home: index.md
+  - Test: 
+    - test/index.md
+    - Page1: test/page1.md
 theme:
   name: material
   language: zh
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search
+    - search.suggest
+    - header.autohide
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: 切换到亮色模式
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到暗色模式
+copyright: Copyright &copy; 2024 - 2025 miko-cn
