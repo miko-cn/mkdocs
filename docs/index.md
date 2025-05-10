@@ -1,5 +1,7 @@
 # Welcome to MkDocs
 
+![Yae-Miko](https://picgo-1256575825.cos.ap-guangzhou.myqcloud.com/3f4ada7564bd697e3a22596edf8977cdd2f100a8_s2_n1.jpg)
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands

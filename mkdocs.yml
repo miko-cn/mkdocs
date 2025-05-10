@@ -8,6 +8,8 @@ nav:
 theme:
   name: material
   language: zh
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   features:
     - navigation.instant
     - navigation.instant.progress
