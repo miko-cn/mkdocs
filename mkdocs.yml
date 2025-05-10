@@ -2,3 +2,4 @@ site_name: My Github Docs
 site_url: https://miko-cn.github.io
 theme:
   name: material
+  language: zh
