@@ -17,3 +17,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 测试中文，检索功能，阿里巴巴，支付宝，微信，腾讯，米哈游。
+
+测试修改，自定义域名。
