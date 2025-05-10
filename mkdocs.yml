@@ -1,13 +1,16 @@
 site_name: Miko Tech Tips
 site_url: https://miko.us.kg
 nav:
-  - 主页: index.md
+  - 主页:
+    - index.md
+    - 开坑计划: todo.md
   - 编程:
-    - coding/index.md
-    - C/C++:
-      - coding/c-cpp/index.md
+    # - coding/index.md
     - C#:
       - coding/csharp/index.md
+  - 游戏开发:
+    - Unity:
+      - gamedev/unity/index.md
 theme:
   name: material
   language: zh
