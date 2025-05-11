@@ -11,6 +11,13 @@ nav:
   - 游戏开发:
     - Unity:
       - gamedev/unity/index.md
+  - 工具箱:
+      - Mkdocs语法:
+        - Admonitions - 提示: toolbox/mkdocs/admonitions.md
+        - Annotations - 注释: toolbox/mkdocs/annotations.md
+        - Code blocks - 代码块: toolbox/mkdocs/codeblocks.md
+        - Footnotes - 脚注: toolbox/mkdocs/footnotes.md
+        - Tooltips - 悬浮提示: toolbox/mkdocs/tooltips.md
 theme:
   name: material
   language: zh
@@ -28,6 +35,7 @@ theme:
     - header.autohide
     - content.code.copy
     - content.code.annotate
+    - content.tooltips
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -48,7 +56,26 @@ extra:
       link: https://github.com/miko-cn
     - icon: fontawesome/solid/envelope
       link: mailto:mikott@foxmail.com
+  consent:
+    title: Cookie 使用许可
+    description: >- 
+      本站使用cookies来识别您的重复访问偏好、提供反馈渠道，以及衡量文档的有效性以及用户是否找到了他们正在搜索的内容。在您的同意下，您正帮助本站使文档变得更好。
+  analytics: 
+    feedback:
+      title: 这篇文章有帮助到你吗？
+      ratings:
+        - icon: material/thumb-up-outline
+          name: 太赞啦！继续加油！
+          data: 1
+          note: >-
+            感谢你的反馈！
+        - icon: material/thumb-down-outline
+          name: 还有提高的空间。
+          data: 0
+          note: >- 
+            感谢你的批评！<br>提交反馈或建议请到：<a href="https://github.com/miko-cn/miko-cn.github.io/issues/new/?title=[反馈]+{title}+-+{url}" target="_blank" rel="noopener">Github Issues</a>.
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - def_list
@@ -75,3 +102,5 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+extra_javascript:
+  - scripts/feedback.js
