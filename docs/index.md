@@ -7,7 +7,10 @@ hide:
 
 一个兴趣使然的独立开发者博客，记录些随笔，发布些文章。
 
-## 你将会看到
+!!! note "AI辅助内容提示"
+    本站中的部分内容会在内容生成式AI的辅助指导下完成，我们会尽可能地审核内容包含知识和事实的正确性，如发现纰漏或谬误，请在 [Github Issues](https://github.com/miko-cn/miko-cn.github.io/issues) 中进行反馈，感谢！
+
+## 你可以在这里找到
 
 - 编程语言：C/C++、C#、Python、Javascript
 - 软件开发：React-Native、Expo
