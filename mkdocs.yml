@@ -51,8 +51,6 @@ theme:
         icon: material/brightness-4
         name: 切换到暗色模式
 copyright: Copyright &copy; 2024 - 2025 MikoTechTips
-plugins:
-  - tags
 extra:
   social:
     - icon: fontawesome/brands/zhihu
