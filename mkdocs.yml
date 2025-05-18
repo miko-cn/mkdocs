@@ -8,7 +8,7 @@ nav:
     # - coding/index.md
     - C#:
       - coding/csharp/index.md
-      - C#技术生态解析: coding/csharp/intro.md
+      - C#技术生态深入浅出: coding/csharp/intro.md
   - 游戏开发:
     - Unity:
       - gamedev/unity/index.md
@@ -41,15 +41,22 @@ theme:
     - content.tooltips
   palette: 
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换到亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/brightness-7 
-        name: 切换到亮色模式
+        name: 切换到暗色模式
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
       toggle:
         icon: material/brightness-4
-        name: 切换到暗色模式
+        name: 切换到系统默认
 copyright: Copyright &copy; 2024 - 2025 MikoTechTips
 extra:
   social:
